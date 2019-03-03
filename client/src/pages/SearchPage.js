@@ -89,6 +89,8 @@ class SearchPage extends Component {
             name="searchBar"
             placeholder="Book Title" />
           <button
+            style={{marginLeft: '20px'}}
+            className="btn btn-primary btn-lg active"
             onClick={this.handleFormSubmit}>
             Search
           </button>
